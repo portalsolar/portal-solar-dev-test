@@ -97,6 +97,8 @@ vez que o usuário realizar uma buscar.
 Envie seu projeto, links, repositório, o que julgar necessário para avaliação do teste para o email:
 
 *dev@portalsolar.com.br*
+
+
 Assunto: Dev Teste - Meu Nome
 
 
