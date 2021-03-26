@@ -62,6 +62,12 @@ Dica: Verifique o valor baseado no peso do produto ou no peso cubado. (menor = m
 
 * Fazer ao menos testes unitários para serviços e métodos criados para a recomendação de geradores, consulta de CEP e a busca simples por nome, mas não se limitando, testes são sempre bem vindos.
 
+
+### Sai na Frente
+
+* Esquece o Rails para Front End e faça o mesmo em React, topa?
+
+
 #### Dicas marotas 
 
 * Utilize as `gems` que achar necessário, porém o algoritmo de recomendação e melhor custo de frete será de sua responsabilidade.
