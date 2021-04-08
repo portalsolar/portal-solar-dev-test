@@ -2,11 +2,23 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  database: <%= ENV['DATABASE_NAME'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  host: <%= ENV['DATABASE_HOST'] %>
+  port: <%= ENV['DATABASE_PORT'] %>
+
 development:
   <<: *default
-  database: PortalSolarDevTest_development
+
+test:
+  <<: *default
+
+staging:
+  <<: *default
+
 production:
   <<: *default
-  database: PortalSolarDevTest_production
-  username: PortalSolarDevTest
-  password: <%= ENV['PORTALSOLARDEVTEST_DATABASE_PASSWORD'] %>
+
+
