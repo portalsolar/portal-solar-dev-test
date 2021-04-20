@@ -24,7 +24,12 @@ Leia com atenção pois a compreensão faz parte do processo, faça o máximo qu
 Good Luck!
 
 
-### Requisitos 
+
+#### Objetivo geral
+
+Implementar novas funcionalidades ao sistema de busca, recomendação e melhor custo de frete para geradores de energia.
+
+### O que precisa usar 
 
 Este projeto utiliza:
 
@@ -37,18 +42,12 @@ Execute os comandos abaixo:
 `$ bundle exec rails db:create db:migrate db:seed`
 
 
-#### Objetivo geral
-
-Implementar novas funcionalidades ao sistema de busca, recomendação e melhor custo de frete para geradores de energia.
-
-#### Requisitos Principais
+#### Requisitos 
 
 * Implementar uma funcionalidade de recomendação geradores de energia para o usuário utilizando os campos que existem no modelo de PowerGenerator. Em outras palavras, o usuário poderá informar alguns dados que possa ser utilizado para recomendar estes geradores de energia. Não se prenda a quantos e quais informações o usuário poderá informar. O algoritmo de escolha é livre, fique a vontade.
 
 * Implementar função para consultar o custo do frete (_*model*_ Freight) baseado no CEP informado. Ao clicar no produto deve ser abrir uma modal, uma nova tela ou uma partial para tal função.
 Dica: Utilize alguma API pública para descobrir cidade e estado através do CEP, irá ajudar no processo de precificação do frete. 
-
-#### Requisitos Secundários
 
 * Implementar um filtro simples que ordene por preço na tela inicial, trazendo os resultados ordenados por nome e adicionando paginação para mostrar somente 6 itens por página.
 
@@ -86,9 +85,7 @@ vez que o usuário realizar uma buscar.
 
 #### Você será avalidado como:
 
-* Cumprimento dos requisitos principais.
-
-* Cumprimento dos requisitos secundárias, caso faça.
+* Cumprimento dos requisitos.
 
 * Testes, caso faça.
 
@@ -102,7 +99,7 @@ vez que o usuário realizar uma buscar.
 
 Envie seu projeto, links, repositório, o que julgar necessário para avaliação do teste para o email:
 
-*dev@portalsolar.com.br*
+*jonata.william@portalsolar.com.br*
 
 
 Assunto: Dev Teste - Meu Nome
